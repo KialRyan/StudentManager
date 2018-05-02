@@ -1,14 +1,14 @@
 #ifndef _STUDENT_H_
 #define _STUDENT_H_
-
+#include <string>
 class student
 {
     private:
-    string firstName;
-    string lastName;
+    std::string firstName;
+    std::string lastName;
     public:
-    void setName(string firstName, string lastName);
-    string fullName(string fullName); 
+    void setName(std::string firstName,std::string lastName);
+    std::string fullName(); 
 
 };
 
